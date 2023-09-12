@@ -13,6 +13,29 @@
 
 - **ファイル名は全て一目で意味の通じる英語で記述する**
 
+### branch
+
+- **issueを立ててからbranchを作ること!**
+- ブランチ名はfuture/issue名 で記述する
+- 例: future/top
+
+### commitメッセージ
+
+- 最初にprefixをつけること
+- prefixは以下の通り
+  - add: 新規機能追加
+  - fix: バグ修正
+  - update: 機能修正
+  - remove: 機能削除
+  - clean: 整理
+  - disable: 無効化
+  - upgrade: バージョンアップ
+  - revert: 変更取り消し
+  - etc: その他
+  
+  - 例: add: ログイン機能追加
+- prefix後にスペースを入れて、変更内容を記述する
+
 ### HTML
 
 - ファイル名、クラス、id名は全てケバブケースで記述する
