@@ -69,7 +69,7 @@ nav {
   z-index: 253;
   visibility: visible;
   max-width: 30vw;
-  background-color: rgba(22, 22, 22, 0.5);
+  background-color: rgba(55, 145, 75, 0.9);
   transition: all 0.5s ease;
   z-index: 3;
 }
@@ -93,4 +93,12 @@ nav {
      -moz-user-select: none;
           user-select: none;
   transition: all 0.5s ease;
+}
+
+.nav-disable {
+  opacity: 0;
+  /*  max-height: 0px;*/
+  visibility: hidden;
+  transition: all 1s ease;
+  background-color: rgba(0, 0, 0, 0);
 }/*# sourceMappingURL=common.css.map */
