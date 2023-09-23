@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* 既存のスタイル */
+header {
+    /* ... */
+}
+
+#nav-logo {
+    /* ... */
+}
+
+#nav-button {
+    /* ... */
+}
+
+.open-btn {
+    /* ... */
+}
+
+/* ... 他の既存のスタイル ... */
+
+/* 商品出品フォームのスタイル */
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+    appearance: none; 
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.price-input {
+    display: flex;
+    align-items: center;
+}
+
+.price-input span {
+    margin-right: 5px;
+}
+
+#itemPrice {
+    flex: 1; 
+}
+
+.custom-select {
+    position: relative;
+    width: 250px; 
+    margin-bottom: 15px;
+}
+
+.custom-select label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.custom-select select {
+    appearance: none;
+    outline: none;
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-group > div {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; /* チェックボックスの間のスペース */
+    margin-bottom: 10px;
+}
+
+
+/* 画像アップロードエリア */
+#itemImage {
+    display: none; /* 元のファイル入力は非表示に */
+}
+
+#imageUploadLabel {
+    display: inline-block;
+    width: 100%; /* 幅を100%に変更 */
+    height: 150px;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #f5f5f5; /* 背景色を追加 */
+}
+
+#imageUploadLabel::before {
+    font-size: 60px; /* フォントサイズを調整 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #aaa;
+}
+
+#imagePreview {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imageUploadLabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-upload-text {
+    white-space: pre-line;
+    text-align: center;
+}
+
