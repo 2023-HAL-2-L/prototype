@@ -1,0 +1,35 @@
+main {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+main h1 {
+  font-size: 2.4rem;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 25px;
+  padding: 0 10px 30px 10px;
+  border-bottom: 3px solid #3a3a3a;
+  line-height: 2.6rem;
+}
+main .question-text {
+  font-size: 1.4rem;
+  padding: 0 5px;
+  margin-bottom: 60px;
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+}
+main div p {
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+}/*# sourceMappingURL=personal-diagnosis-content.css.map */
