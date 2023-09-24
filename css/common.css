@@ -90,7 +90,7 @@ nav {
   font-size: 1.6rem;
   letter-spacing: 0.4rem;
   -webkit-user-select: none;
-  -moz-user-select: none;
+     -moz-user-select: none;
           user-select: none;
   transition: all 0.5s ease;
 }
@@ -102,4 +102,3 @@ nav {
   transition: all 1s ease;
   background-color: rgba(0, 0, 0, 0);
 }/*# sourceMappingURL=common.css.map */
-
