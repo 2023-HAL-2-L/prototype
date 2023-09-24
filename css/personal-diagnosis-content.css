@@ -40,6 +40,12 @@ main div p {
   font-size: 1.8rem;
   letter-spacing: 0.2rem;
 }
+main #select-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 main .question-img-wrap {
   width: 250px;
   height: 100%;
