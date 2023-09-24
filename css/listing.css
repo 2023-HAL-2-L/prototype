@@ -1,13 +1,9 @@
 @charset "UTF-8";
 
-/* 既存のスタイル */
-header, #nav-logo, #nav-button, .open-btn {
-    /* ... */
-}
 
 /* 商品出品フォームのスタイル */
 main {
-    max-width: 600px;
+    max-width: 1000px;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
@@ -49,8 +45,8 @@ textarea {
 input[type="submit"] {
     display: block;
     margin: 20px auto;
-    width: fit-content;
-    background-color: #333;
+    width: auto;
+    background-color: #37914b;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -61,7 +57,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #1e5129;
 }
 
 .price-input {
