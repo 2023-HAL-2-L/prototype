@@ -28,7 +28,7 @@ header {
   transition: all 0.3s ease;
 }
 .button:hover {
-  background-color: rgba(55, 145, 75, 0.7);
+  background-color: #366841;
 }
 
 #nav-button {
