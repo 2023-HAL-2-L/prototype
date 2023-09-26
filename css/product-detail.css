@@ -1,52 +1,62 @@
-@charset "UTF-8";
-/* 商品詳細セクションのスタイル */
-.product-details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* ページ全体のスタイル */
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif; /* Google Fontsからのフォントを使用 */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ヘッダーのスタイル */
+header {
+
+  color: #fff; /* ヘッダーのテキスト色を設定 */
+  padding: 10px;
+}
+
+
+/* メインセクションのスタイル */
+.main {
+  max-width: 800px; /* メインコンテンツの最大幅を設定 */
+  margin: 0 auto; /* メインコンテンツを中央寄せ */
   padding: 20px;
-  text-align: center; /* テキストを中央に配置 */
+}
+
+.product-details {
+  display: flex; /* 商品詳細セクション内の要素を横並びに配置 */
+  align-items: center; /* 要素を垂直方向に中央揃え */
 }
 
 .product-image {
-  max-width: 50%;
-  padding: 20px;
+  flex: 1; /* 商品画像の幅を自動調整 */
 }
 
 .product-info {
-  max-width: 50%;
+  flex: 2; /* 商品情報の幅を自動調整 */
   padding: 20px;
 }
 
-.product-info h1 {
-  font-size: 24px;
-  text-align: center; /* テキストを中央に配置 */
-  font-family: 'M PLUS Rounded 1c', sans-serif; /* Google Fontsのフォントを適用 */
+h2 {
+  font-weight: 400; /* フォントの太さを設定 */
+  font-size: 24px; /* フォントサイズを設定 */
 }
 
-.product-info p {
-  font-size: 16px;
-  margin-bottom: 10px;
-  text-align: center; /* テキストを中央に配置 */
-  font-family: 'M PLUS Rounded 1c', sans-serif; /* Google Fontsのフォントを適用 */
+p {
+  font-family: 'M PLUS 1p', sans-serif; /* 商品説明と価格のフォントを設定 */
+  font-weight: 300; /* フォントの太さを設定 */
+  font-size: 16px; /* フォントサイズを設定 */
 }
 
 button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
+  background-color: #008000; /* ボタンの背景色を設定 */
+  color: #fff; /* ボタンのテキスト色を設定 */
   border: none;
+  padding: 10px 90px 10px 90px;
   cursor: pointer;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto; /* ボタンを中央に配置 */
-  font-family: 'M PLUS Rounded 1c', sans-serif; /* Google Fontsのフォントを適用 */
 }
 
-/* フッタースタイル */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
+/* ナビゲーションのスタイル（初期状態では非表示） */
+.nav-disable {
+  display: none;
 }
+
+/* 追加のスタイリングをここに追加できます */
