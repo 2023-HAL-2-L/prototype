@@ -1,63 +1,52 @@
-<!DOCTYPE html>
-<html lang="ja">
+@charset "UTF-8";
+/* 商品詳細セクションのスタイル */
+.product-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center; /* テキストを中央に配置 */
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap" rel="stylesheet">
+.product-image {
+  max-width: 50%;
+  padding: 20px;
+}
 
-  <title>
-    top
-  </title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/common.css">
-</head>
+.product-info {
+  max-width: 50%;
+  padding: 20px;
+}
 
-<body>
-  <header>
-    <div id="nav-button">
-      <div class="open-btn"><span></span><span></span><span></span></div>
-    </div>
-  </header>
+.product-info h1 {
+  font-size: 24px;
+  text-align: center; /* テキストを中央に配置 */
+  font-family: 'M PLUS Rounded 1c', sans-serif; /* Google Fontsのフォントを適用 */
+}
 
+.product-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center; /* テキストを中央に配置 */
+  font-family: 'M PLUS Rounded 1c', sans-serif; /* Google Fontsのフォントを適用 */
+}
 
-  <main>
-    <section class="product-details">
-        <div class="product-image">
-            <!-- 商品画像を表示 -->
-        </div>
-        <div class="product-info">
-            <h1>商品名</h1>
-            <p>商品説明</p>
-            <p>価格</p>
-            <!-- 他の商品情報を表示 -->
-            <button>購入</button>
-        </div>
-    </section>
-</main>
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto; /* ボタンを中央に配置 */
+  font-family: 'M PLUS Rounded 1c', sans-serif; /* Google Fontsのフォントを適用 */
+}
 
-  <nav class="nav-disable">
-    <div id="nav-wrap">
-      <div class="nav-text">test</div>
-    </div>
-  </nav>
-  
-  
-
-
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <script src="js/common.js"></script>
-</body>
-
-
-</html>
+/* フッタースタイル */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
