@@ -44,7 +44,10 @@ div#jump-to-sindan h1 {
   font-size: 1.8rem;
   margin: 20px auto;
 }
-div#jump-to-sindan img {
+div#jump-to-sindan figure {
+  min-width: 1000px;
+}
+div#jump-to-sindan figure img {
   width: 100%;
 }
 div#top-startbutton {
@@ -54,7 +57,7 @@ div#top-startbutton {
 div#top-startbutton a {
   font-family: serif;
   display: inline-block; /*下の要素とかぶるから*/
-  padding: 4px 30px;
+  padding: 8px 30px;
   text-decoration: none; /*下線を消す*/
   color: #fff;
   font-size: 1.3rem;
@@ -69,6 +72,7 @@ div#top-news h1 {
 }
 div#top-news div#Announcement {
   background-color: lightgray;
+  padding: 20px 0;
   margin: 20px auto;
 }
 div#top-news div#Announcement p.date {
