@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*壁紙*/
 header#wallpaper {
   height: 100vh; /*%が使えないためvhという単位*/
