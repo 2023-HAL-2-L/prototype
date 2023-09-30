@@ -10,6 +10,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: whitesmoke;
+  font-size: 3.6rem;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(47, 47, 47, 0.8);
 }
 /*全体*/
 main#top div#wrap {
