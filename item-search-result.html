@@ -4,6 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap" rel="stylesheet">
+
   <title>top</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
@@ -31,7 +42,7 @@
     <!-- 検索ボックス・カテゴリ -->
     <div class="search-flexbox">
       <form class="search-form" action="自分のサイトURL">
-        <input class="search-box" id="s" name="s" type="text" placeholder="キーワードを入力" />
+        <input class="search-box" type="text" placeholder="キーワードを入力" />
       </form>
       <div class="modal-001__wrap">
         <input type="radio" id="modal-001__open" class="modal-001__open-input" name="modal-001__trigger" />
@@ -39,7 +50,7 @@
         <input type="radio" id="modal-001__close" name="modal-001__trigger" />
         <div class="modal-001">
           <div class="modal-001__content-wrap">
-            <label for="modal-001__close" class="modal-001__close-label">×</label>
+            <label for="modal-001__close" class="modal-001__close-label">x</label>
             <div class="modal-001__content">
               <h2 class="modal-subheading">カテゴリー一覧</h2>
               <ul class="category-flex">
@@ -78,25 +89,31 @@
     <div class="product-wrap">
       <ul class="item-flex">
         <li>
-          <figure>
-            <img src="images/flower01.jpg" class="item-images" alt="花1">
-          </figure>
-          <h3>商品名1</h3>
-          <p>130円</p>
+          <a href="">
+            <figure>
+              <img src="images/flower01.jpg" class="item-images" alt="花1">
+            </figure>
+            <h3>コップ入り花束</h3>
+            <p>130円</p>
+          </a>
         </li>
         <li>
-          <figure>
-            <img src="images/flower02.jpg" class="item-images" alt="花2">
-          </figure>
-          <h3>商品名2</h3>
-          <p>260円</p>
+          <a href="">
+            <figure>
+              <img src="images/flower02.jpg" class="item-images" alt="花2">
+            </figure>
+            <h3>傘っぽい花束</h3>
+            <p>260円</p>
+          </a>
         </li>
         <li>
-          <figure>
-            <img src="images/flower03.jpg" class="item-images" alt="花3">
-          </figure>
-          <h3>商品名3</h3>
-          <p>390円</p>
+          <a href="">
+            <figure>
+              <img src="images/flower03.jpg" class="item-images" alt="花3">
+            </figure>
+            <h3>黄色い花束</h3>
+            <p>390円</p>
+          </a>
         </li>
       </ul>
     </div>
