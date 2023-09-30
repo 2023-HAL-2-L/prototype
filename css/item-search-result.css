@@ -7,25 +7,32 @@
     flex-direction: row;
     align-items: flex-start;
     margin-top: 20px;
-}  
-  
-.search-form {
-    position:relative;/*フォームの相対位置*/	
-    max-width:400px; /*フォームのサイズ */
-    margin-left: 20px; 
 }
-    
+
+.search-form {
+    position: relative;
+    /*フォームの相対位置*/
+    max-width: 400px;
+    /*フォームのサイズ */
+    margin-left: 20px;
+}
+
 /*検索ボックス*/
 .search-box {
-    left:0;
-    top:0; 	
-    outline:0;/*クリック時の青い枠線消す*/	
-    height:50px;/*検索ボックスの高さ*/	
-    padding:0 10px;/*テキスト位置調整*/	 
-    border-radius:2px 0 0 2px;/*検索ボックスの角を丸める*/		
-    background:#eee;/*検索ボックスの背景カラー*/		
+    left: 0;
+    top: 0;
+    outline: 0;
+    /*クリック時の青い枠線消す*/
+    height: 50px;
+    /*検索ボックスの高さ*/
+    padding: 0 10px;
+    /*テキスト位置調整*/
+    border-radius: 2px 0 0 2px;
+    /*検索ボックスの角を丸める*/
+    background: #eee;
+    /*検索ボックスの背景カラー*/
 }
-  
+
 /* モーダルウィンドウ */
 .modal-001__wrap {
     display: inline-block;
@@ -66,7 +73,7 @@
     display: none;
 }
 
-.modal-001__open-input:checked + label + input + .modal-001 {
+.modal-001__open-input:checked+label+input+.modal-001 {
     display: block;
     animation: modal-001-animation .6s;
 }
@@ -124,7 +131,7 @@
 }
 
 .category-flex {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -136,6 +143,18 @@
     margin: 20px 0 20px 0;
 }
 
+.product-wrap {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: flex-start;
+    text-align: center;
+}
+
 .item-flex {
     display: flex;
     flex-direction: row;
@@ -143,8 +162,21 @@
     align-items: flex-start;
 }
 
+.item-flex li {
+    width: 30vw;
+}
+
+.item-flex li figure {
+    min-height: 30vh;
+    max-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .item-images {
-    width: 50%;
+    max-width: 80%;
+    max-height: 50vh;
     height: auto;
 }
 
@@ -152,6 +184,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }

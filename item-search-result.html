@@ -12,7 +12,9 @@
 
 <body>
   <header>
-    <div id="nav-logo"><p>test</p></div>
+    <div id="nav-logo">
+      <p>test</p>
+    </div>
     <div id="nav-button">
       <div class="open-btn"><span></span><span></span><span></span></div>
     </div>
@@ -22,31 +24,43 @@
       <div class="nav-text">test</div>
     </div>
   </nav>
-  
-  
+
+
   <main>
 
     <!-- 検索ボックス・カテゴリ -->
     <div class="search-flexbox">
       <form class="search-form" action="自分のサイトURL">
-        <input class="search-box"  id="s" name="s" type="text" placeholder="キーワードを入力" />
+        <input class="search-box" id="s" name="s" type="text" placeholder="キーワードを入力" />
       </form>
       <div class="modal-001__wrap">
-        <input type="radio" id="modal-001__open" class="modal-001__open-input" name="modal-001__trigger"/>
-        <label for="modal-001__open"  class="modal-001__open-label">カテゴリ</label>
-        <input type="radio" id="modal-001__close" name="modal-001__trigger"/>
+        <input type="radio" id="modal-001__open" class="modal-001__open-input" name="modal-001__trigger" />
+        <label for="modal-001__open" class="modal-001__open-label">カテゴリ</label>
+        <input type="radio" id="modal-001__close" name="modal-001__trigger" />
         <div class="modal-001">
           <div class="modal-001__content-wrap">
             <label for="modal-001__close" class="modal-001__close-label">×</label>
             <div class="modal-001__content">
               <h2 class="modal-subheading">カテゴリー一覧</h2>
               <ul class="category-flex">
-                <a href="#"><li>カテゴリ1</li></a>
-                <a href="#"><li>カテゴリ2</li></a>
-                <a href="#"><li>カテゴリ3</li></a>
-                <a href="#"><li>カテゴリ4</li></a>
-                <a href="#"><li>カテゴリ5</li></a>
-                <a href="#"><li>カテゴリ6</li></a>
+                <a href="#">
+                  <li>カテゴリ1</li>
+                </a>
+                <a href="#">
+                  <li>カテゴリ2</li>
+                </a>
+                <a href="#">
+                  <li>カテゴリ3</li>
+                </a>
+                <a href="#">
+                  <li>カテゴリ4</li>
+                </a>
+                <a href="#">
+                  <li>カテゴリ5</li>
+                </a>
+                <a href="#">
+                  <li>カテゴリ6</li>
+                </a>
               </ul>
             </div>
           </div>
@@ -61,20 +75,26 @@
     <hr class="Separator">
 
     <!-- 商品 -->
-    <div>
+    <div class="product-wrap">
       <ul class="item-flex">
         <li>
-          <img src="images/flower01.jpg" class="item-images" alt="花1">
+          <figure>
+            <img src="images/flower01.jpg" class="item-images" alt="花1">
+          </figure>
           <h3>商品名1</h3>
           <p>130円</p>
         </li>
         <li>
-          <img src="images/flower02.jpg" class="item-images" alt="花2">
+          <figure>
+            <img src="images/flower02.jpg" class="item-images" alt="花2">
+          </figure>
           <h3>商品名2</h3>
           <p>260円</p>
         </li>
         <li>
-          <img src="images/flower03.jpg" class="item-images" alt="花3">
+          <figure>
+            <img src="images/flower03.jpg" class="item-images" alt="花3">
+          </figure>
           <h3>商品名3</h3>
           <p>390円</p>
         </li>
@@ -91,7 +111,7 @@
 
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"
     integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <script src="js/common.js"></script>  
+  <script src="js/common.js"></script>
 </body>
 
 </html>
