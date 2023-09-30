@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*壁紙*/
-header#wallpaper {
+#wallpaper {
   height: 100vh; /*%が使えないためvhという単位*/
   background-image: url(../images/top.png);
   background-size: cover;
@@ -10,6 +10,12 @@ header#wallpaper {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: whitesmoke;
+  font-size: 3.6rem;
+  font-weight: 800;
+  letter-spacing: 0.4rem;
+  text-shadow: 0 0 10px rgba(47, 47, 47, 0.8);
 }
 /*全体*/
 main#top div#wrap {
