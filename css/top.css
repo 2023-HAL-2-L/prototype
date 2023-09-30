@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*壁紙*/
-header#wallpaper {
+#wallpaper {
   height: 100vh; /*%が使えないためvhという単位*/
   background-image: url(../images/top.png);
   background-size: cover;
