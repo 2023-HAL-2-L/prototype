@@ -24,24 +24,25 @@ header {
 .product-details {
   display: flex; /* 商品詳細セクション内の要素を横並びに配置 */
   align-items: center; /* 要素を垂直方向に中央揃え */
+  justify-content: space-around;
 }
 
 .product-image {
-  flex: 1; /* 商品画像の幅を自動調整 */
-  margin-right: 20px; /* 左側に写真を配置するために右側のマージンを追加 */
+  width: 40%;
+  /* margin-right: 20px; 左側に写真を配置するために右側のマージンを追加 */
 }
 
 .product-image img {
-  width: 300%; /* 画像の幅を100%に設定して親要素に合わせる */
+  width: 100%; /* 画像の幅を100%に設定して親要素に合わせる */
   height: auto; /* アスペクト比を保持したまま高さを自動調整 */
   max-width: 100%; /* 画像の最大幅を100%に設定 */
   max-height: 100%; /* 画像の最大高さを100%に設定 */
 }
 
 .product-info {
-  flex: 2; /* 商品情報の幅を自動調整 */
+  margin-top: 70px;
   padding: 20px;
-  padding-left: 570px;
+  /* padding-left: 370px; */
 }
 
 h2 {
