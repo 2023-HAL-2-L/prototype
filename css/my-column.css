@@ -1,0 +1,29 @@
+main{
+
+}
+.midasi{
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.my-column{
+
+    width: 55%;
+    margin: 15px auto;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(210, 210, 210);
+    
+
+}
+
+.naiyou{
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+}
+a:hover{
+  background-color: #000000;  
+}
+.Ctitle{
+    font-size: 25px;
+}
