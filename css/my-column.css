@@ -23,6 +23,7 @@ main{
 }
 a:hover{
   background-color: #000000;  
+  opacity: 0.5;
 }
 .Ctitle{
     font-size: 25px;
