@@ -9,10 +9,11 @@ main{
 }
 .my-column{
 
-    width: 55%;
+    width: 60%;
     margin: 15px auto;
     padding: 20px 20px 20px 20px;
     background-color: rgb(210, 210, 210);
+    line-height: 1.5;
     
 
 }
@@ -23,7 +24,7 @@ main{
 }
 a:hover{
   background-color: #000000;  
-  opacity: 0.5;
+  opacity: 0.3;
 }
 .Ctitle{
     font-size: 25px;
