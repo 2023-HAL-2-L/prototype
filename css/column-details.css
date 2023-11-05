@@ -130,49 +130,52 @@ nav {
 
 
 
+/* -------ここからコラム詳細ページ-------- */
 
-/* ----------ここから掲示板詳細＆書き込みページ---------- */
+main div{
+  width: 65%;
+  margin: 50px auto 50px auto;
+  /* background-color: #222; */
+  border: 1px solid #366841;
+}
 
-main{
+main div h3{
+  font-size: 45px;
+  padding: 15px 0 5px 20px;
+  text-align: left;
+  background-color: #84c298;
+  border: none;
+}
+
+main div p#time{
+  font-size: 23px;
+  padding: 0 0 0 20px;
+  background-color: #ddd;
+}
+
+main div#img{
+  height: 470px;
+  width: auto;
+  margin: 40px 0 50px 0;
+  background-color: #eee; 
+  border: none; 
+}
+
+main div div#img img{
+
+}
+main div div#main-txt-div{
   text-align: center;
-}
-
-/* 入力欄　送信ボタンのdiv */
-main div.top-input{
-  margin: 30px auto;
   width: 80%;
-}
-main div.top-input input{
-  padding: 10px 200px;
-  margin: 0 35px 0 0;
-
-  border: 1px solid #000;
-  border-radius: 3px;
-}
-main div.top-input a.button-sent{
-  text-align: left;
-  padding: 10px 80px;
-  color: #fff;
-  background-color: #37914b;
-  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  /* padding: 15px; */
+  border: none;
+  /* background-color: #eee; */
 }
 
-/* 下の掲示板 */
-main div.keijiban{
-  width: 55%;
-  margin: 0 auto;
-  padding: 20px 20px 20px 20px;
-  background-color: rgb(210, 210, 210);
-}
-main div.keijiban ul.naiyou{
-  text-align: left;
-  margin:  0 0 30px;
-
-}
-main div.keijiban ul.naiyou li{
-  font-size: 1.1rem;
-}
-main div.keijiban ul.naiyou li.li-t{
-  margin-bottom: 10px;
+main div div#main-txt-div p#main-txt{
+  font-size: 20px;
 }
 
+main div{}
