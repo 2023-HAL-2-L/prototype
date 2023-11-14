@@ -1,0 +1,21 @@
+/* 見出し */
+.news-midasi{
+    text-align: center;
+
+}
+h2{
+    margin: 30px;
+    font-size:23px ;
+}
+.midasi-phote{
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+
+.midasi-naiyou{
+    width: 800px;
+    margin: 0 auto 0 auto;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+}

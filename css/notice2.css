@@ -34,7 +34,7 @@ h2{
     line-height: 1.7;
 }
 
-
+/* 見出しメニュー */
 .toc-001 {
     width: 400px;
     margin-bottom: 30px;
@@ -69,6 +69,8 @@ h2{
 .toc-001 a {
     color: #166c9d;
 }
+
+/* 本題 */
 
 .naiyou2{
 
