@@ -1,15 +1,20 @@
 @charset "UTF-8";
 
+.body{
 
-/* 交換一覧ページ全体 */
+
+}
+
+
 div#exchange-list-wrap {
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 0px auto;
     background-color: #fff;
     padding: 20px;
 }
 
 h1 {
+    padding: 100px 0 0;
     font-size: 20px;
     margin-bottom: 20px;
     text-align: left;
@@ -22,7 +27,7 @@ h2 {
     text-align: left;
 }
 
-/* 交換内容中身 */
+/* 出品内容中身 */
 
 
 .exchange-list-container {
@@ -71,7 +76,7 @@ table td {
     opacity       : 0.8;         /* カーソル時透明度 */
   }
 
-/* 交換する！しない！ボタン */
+/* 詳細ページ移動 */
 .exchange-list-container-button {
     display: flex;
     flex-direction: column;
@@ -80,7 +85,7 @@ table td {
 }
 
 button {
-    width: 110px;
+    width: 140px;
     padding: 10px 30px;
     border: none;
     outline: none;
