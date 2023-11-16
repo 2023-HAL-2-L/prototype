@@ -24,11 +24,12 @@ h2{
 /* 見出し画像 */
 
 .midasi-phote{
-    margin: 10px auto 10px 200px;
+    margin: 10px auto 10px 150px;
     padding: 10px;
 }
 
 .naiyou{
+    width: 800px;
     margin: 10px auto 10px auto;
     font-size: 18px;
     line-height: 1.7;
@@ -84,10 +85,11 @@ h2{
 }
 
 .naiyou2-image{
-    margin: 10px auto 10px 200px;
+    margin: 10px auto 10px 150px;
 }
 
 .naiyou2-txt{
+    width: 800px;
     margin: 10px auto 10px auto;
     font-size: 18px;
     line-height: 1.7;
