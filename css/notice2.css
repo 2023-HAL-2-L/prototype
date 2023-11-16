@@ -1,0 +1,32 @@
+/* 見出し */
+
+.midasi{
+    height: 80px;
+    text-align: center;
+    margin: 30px auto 20px auto;
+    font-size: 25px;
+}
+
+.opendata{
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+/* 内容 */
+.naiyou{
+    width: 1000px;
+    text-align: left;
+    font-size: 18px;
+    margin: 0 auto 0 auto;
+
+}
+.naiyou p{
+    margin: 20px auto 20px auto ;
+}
+
+/* リンク色 */
+.idou{
+    text-decoration: underline;
+    color: #15c78c;
+
+}
