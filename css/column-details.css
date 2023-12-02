@@ -1,16 +1,10 @@
 @charset "UTF-8";
 header {
   display: flex;
-  position: fixed;
   min-width: 100%;
   width: 100%;
   height: 50px;
   background-color: #37914b;
-  z-index: 100;
-}
-
-main {
-  min-height: 200vh;
 }
 
 #nav-logo {
@@ -39,7 +33,6 @@ main {
 
 #nav-button {
   margin: 0 10px 0 auto;
-  z-index: 105;
 }
 
 .open-btn {
@@ -133,8 +126,53 @@ nav {
   visibility: hidden;
   transition: all 1s ease;
   background-color: rgba(0, 0, 0, 0);
+}/*# sourceMappingURL=common.css.map */
+
+
+
+
+/* ----------ここから掲示板詳細＆書き込みページ---------- */
+
+main{
+  text-align: center;
 }
 
-#header-space {
-  height: 50px;
-}/*# sourceMappingURL=common.css.map */
+/* 入力欄　送信ボタンのdiv */
+main div.top-input{
+  margin: 30px auto;
+  width: 80%;
+}
+main div.top-input input{
+  padding: 10px 200px;
+  margin: 0 35px 0 0;
+
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+main div.top-input a.button-sent{
+  text-align: left;
+  padding: 10px 80px;
+  color: #fff;
+  background-color: #37914b;
+  border-radius: 3px;
+}
+
+/* 下の掲示板 */
+main div.keijiban{
+  width: 55%;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(210, 210, 210);
+}
+main div.keijiban ul.naiyou{
+  text-align: left;
+  margin:  0 0 30px;
+
+}
+main div.keijiban ul.naiyou li{
+  font-size: 1.1rem;
+}
+main div.keijiban ul.naiyou li.li-t{
+  margin-bottom: 10px;
+}
+
