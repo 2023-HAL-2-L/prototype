@@ -23,13 +23,13 @@
       rel="stylesheet"
     />
 
-    <title>start</title>
+    <title>my-listing</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/personal-diagnosis-start.css" />
+    <link rel="stylesheet" href="css/my-listing.css" />
   </head>
 
-  <body class="start">
+  <body>
     <header>
       <div id="nav-logo"></div>
       <div id="nav-button">
@@ -56,55 +56,66 @@
       </div>
     </nav>
 
-    <div id="header-space"></div>
-
-      <main class="start">
+    <main>
+      <div id="wrap">
         <div id="title">
-          <h1>パーソナル診断</h1>
-        </div>
-        <div id="year-wrap">
-          <div id="year">
+          <h1>〇〇さんの出品物一覧</h1>
+        </div><!--titleの終わり-->
+        <div id="exhibit">
+          <div id="product">
             <section>
               <figure>
-                <img src="images/spring.jpg" />
+                <img src="images/product1.jpg" />
+                <p>￥2500</p>
               </figure>
             </section>
             <section>
               <figure>
-                <img src="images/summer.jpg" />
+                <img src="images/product2.jpg" />
+                <p>￥3000</p>
               </figure>
             </section>
             <section>
               <figure>
-                <img src="images/autumn.jpg" />
+                <img src="images/product3.jpg" />
+                <p>￥3500</p>
+              </figure>
+            </section>
+          </div><!--productの終わり-->
+          
+        </div><!--exhibitの終わり-->
+        <div id="exhibit">
+          <div id="product">
+            <section>
+              <figure>
+                <img src="images/product1.jpg" />
+                <p>￥2500</p>
               </figure>
             </section>
             <section>
               <figure>
-                <img src="images/winter.jpg" />
+                <img src="images/product2.jpg" />
+                <p>￥3000</p>
               </figure>
             </section>
-          </div>
-        </div>
-        <div id="introduction">
-          <p>パーソナルな植物であなたの空間を彩る</p>
-          <p>
-            さぁ、「パーソナル診断」という<br />
-            新たな扉を開いてみて。
-          </p>
-        </div>
-        <div id="startbutton">
-          <a href="personal-diagnosis-content.html">診断スタート ▶</a>
-        </div>
-      </main>
-      <footer></footer>
+            <section>
+              <figure>
+                <img src="images/product3.jpg" />
+                <p>￥3500</p>
+              </figure>
+            </section>
+          </div><!--productの終わり-->
+        </div><!--exhibitの終わり-->
 
-      <script
-        src="https://code.jquery.com/jquery-3.7.0.min.js"
-        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
-        crossorigin="anonymous"
-      ></script>
-      <script src="js/common.js"></script>
-    </div>
+      </div><!--wrapの終わり-->
+    </main>
+    <footer></footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/common.js"></script>
   </body>
 </html>

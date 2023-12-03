@@ -18,6 +18,7 @@
   <title>top</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/waiting-approval.css">
 </head>
 
 <body>
@@ -47,9 +48,33 @@
     </div>
   </nav>
   
-  <div id="header-space"></div>
   
-  <main></main>
+  <main id="waiting">
+    <div id="wrap">
+      <div id="unity">
+        <h1>
+          交換了承待ち確認ページ
+        </h1>
+          <div id="product">
+            <h2>
+              【相手の名前】様<br>
+                相手の商品名〇〇〇
+            </h2>
+            <figure>
+              <div id="opponent-product">
+                <td><a href="product-detail.html"><img src="images/koukan.jpg" alt="交換相手の商品"></a></td>
+              </div><!--opponent-productの終わり-->
+              <div id="own-product">
+                <h1>
+                  自分が出品した商品名〇〇〇<br>
+                  返信待ち
+                </h1>
+              </div>
+            </figure>
+          </div><!--productの終わり-->
+      </div><!--unityの終わり-->
+    </div><!--wrapの終わり-->
+  </main>
   <footer></footer>
 
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"

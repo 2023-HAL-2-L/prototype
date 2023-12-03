@@ -1,10 +1,16 @@
 @charset "UTF-8";
 header {
   display: flex;
+  position: fixed;
   min-width: 100%;
   width: 100%;
   height: 50px;
   background-color: #37914b;
+  z-index: 100;
+}
+
+main {
+  min-height: 200vh;
 }
 
 #nav-logo {
@@ -33,6 +39,7 @@ header {
 
 #nav-button {
   margin: 0 10px 0 auto;
+  z-index: 105;
 }
 
 .open-btn {
@@ -126,4 +133,8 @@ nav {
   visibility: hidden;
   transition: all 1s ease;
   background-color: rgba(0, 0, 0, 0);
+}
+
+#header-space {
+  height: 50px;
 }/*# sourceMappingURL=common.css.map */
