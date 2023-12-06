@@ -1,6 +1,6 @@
 /* 見出し */
 
-.midasi{
+.heading{
     height: 80px;
     text-align: center;
     margin: 30px auto 20px auto;
@@ -13,19 +13,19 @@
 }
 
 /* 内容 */
-.naiyou{
+.Content{
     width: 1000px;
     text-align: left;
     font-size: 18px;
     margin: 0 auto 0 auto;
 
 }
-.naiyou p{
+.Content p{
     margin: 20px auto 20px auto ;
 }
 
 /*内容2見出し  */
-.naiyou-midasi {
+.Content-heading {
     width: 1000px;
     font-size: 18px;
     margin: 0 auto 0 auto;
@@ -34,7 +34,7 @@
 }
 
 /* 内容 */
-.naiyou2{
+.Content2{
 
     width: 1000px;
     text-align: left;
@@ -43,17 +43,19 @@
     line-height: 1.7;
 
 }
-.naiyou2 p{
+.Content2 p{
     margin: 20px auto 20px auto ;
 }
 /* リンク色 */
-.idou{
+.moving{
     text-decoration: underline;
     color: #15c78c;
 
 }
+
+/* 大きさが1000以下を下回るとき */
 @media (max-width: 999px) {
-    .midasi{
+    .heading{
         height: 80px;
         text-align: center;
         margin: 30px auto 20px auto;
@@ -66,19 +68,19 @@
     }
     
     /* 内容 */
-    .naiyou{
+    .Content{
         width: 1000px;
         text-align: left;
         font-size: 18px;
         margin: 0 auto 0 auto;
     
     }
-    .naiyou p{
+    .Content p{
         margin: 20px auto 20px auto ;
     }
     
     /*内容2見出し  */
-    .naiyou-midasi {
+    .Content-heading {
         width: 1000px;
         font-size: 18px;
         margin: 0 auto 0 auto;
@@ -87,7 +89,7 @@
     }
     
     /* 内容 */
-    .naiyou2{
+    .Content2{
     
         width: 1000px;
         text-align: left;
@@ -96,15 +98,14 @@
         line-height: 1.7;
     
     }
-    .naiyou2 p{
+    .Content2 p{
         margin: 20px auto 20px auto ;
     }
     /* リンク色 */
-    .idou{
+    .moving{
         text-decoration: underline;
         color: #15c78c;
     
     }
     
-
 }
