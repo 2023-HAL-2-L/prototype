@@ -43,18 +43,18 @@ div#top-category table tr img {
   margin: 10px;
 }
 /*診断に飛ぶ*/
-div#jump-to-sindan {
+div#jump-to-diagnosis {
   margin: 50px auto;
 }
-div#jump-to-sindan h1 {
+div#jump-to-diagnosis h1 {
   font-family: serif;
   font-size: 1.8rem;
   margin: 20px auto;
 }
-div#jump-to-sindan figure {
+div#jump-to-diagnosis figure {
   min-width: 1000px;
 }
-div#jump-to-sindan figure img {
+div#jump-to-diagnosis figure img {
   width: 100%;
 }
 div#top-startbutton {
