@@ -47,6 +47,8 @@ button:hover {
 .regitration-form {
     width: 25vw;
     width: 100%;
+    height: 650px;
+    
 
 }
 
@@ -74,6 +76,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     gap: 50px 150px;
+    margin: 15px;
 }
 .regitration-button a{
     text-decoration: none;
@@ -90,6 +93,7 @@ button:hover {
     div.wrapper {
         width: 100%;
         height: 100%;
+
     }
 
     a {
@@ -106,6 +110,8 @@ button:hover {
     .regitration-form {
         width: 25vw;
         width: 100%;
+        height: 650px;
+
 
     }
 
