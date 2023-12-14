@@ -1,7 +1,7 @@
 main{
 
 }
-.midasi{
+.heading{
     height: 70px;
     text-align: center;
     padding: 20px;
@@ -18,7 +18,7 @@ main{
 
 }
 
-.naiyou{
+.content{
     border-bottom: 1px solid #000000;
     padding: 10px;
 }
@@ -26,6 +26,6 @@ a:hover{
   background-color: #000000;  
   opacity: 0.3;
 }
-.Ctitle{
+.column-title{
     font-size: 25px;
 }
