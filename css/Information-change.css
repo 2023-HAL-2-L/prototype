@@ -1,24 +1,44 @@
-@charset "UTF-8";
-div.wrapper {
+body{}
+main{}
+div.wrapper{
     width: 100%;
     height: 100%;
 }
+a{
+    text-decoration: none;
 
-a {
-    text-decoration: underline;
-    color: rgba(34, 100, 49, 0.9);;
+    
 }
-
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-h1 {
+  }
+h1{
     text-align: center;
 }
+/* 見出し */
+.Information-change-h2{
+    width: 100%;
+    height: 100px;
+    margin: 0 0 50px 0;
+}
+.Information-change-h2 h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
 
+p{
+    
+}
+/* フォーム */
+.Information-change-form{
+    width: 25vw;
+    width: 100%;
+    display:inline-block;
+
+}
 
 input {
     margin: 0.25em 0em 1em 0em;
@@ -28,99 +48,72 @@ input {
     background-color: rgb(225, 225, 225);
     border-radius: 0.25em;
     color: black;
-}
-
-button {
-    padding: 10px 80px;
-    border: none;
-    outline: none;
-    background-color: rgba(55, 145, 75, 0.9);
-    color: white;
-    border-radius: 0.25em;
-}
-
-button:hover {
-    cursor: pointer;
-    background-color: rgba(56, 95, 65, 0.9);
-}
-
-.regitration-form {
-    width: 25vw;
-    width: 100%;
-    height: 650px;
-    
-
-}
-
-.registration-h2 {
-    width: 100%;
-    height: 100px;
-}
-
-.registration-h2 h2 {
-    text-align: center;
-    padding: 40px;
-    font-size: 25px;
-}
+  }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: 400px;
+    height: 150px;
     margin: 0 auto 0 auto;
 
 }
-
-.regitration-button {
+.container2 {
     display: flex;
-    justify-content: space-between;
-    gap: 50px 150px;
-    margin: 15px;
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+    margin: 0 auto 40px auto;
+
 }
-.regitration-button a{
-    text-decoration: none;
-    color: rgba(34, 100, 49, 0.9);
+/* ボタンいろいろ */
+
+button {
+    
+    padding: 0.75em;
+    border: none;
+    outline: none;
+    background-color: rgb(4, 164, 7);
+    color: white;
+    width: 300px;
+    border-radius: 0.25em;
+    text-align: center; 
 }
 
 
+button:hover {
+    cursor: pointer;
+    background-color: rgb(7, 137, 20);
+} 
 
 
 
 
-/* ウインドウサイズに合わせる1000px以下 */
+
+  /* ウインドウサイズに合わせる1000px以下 */
 @media (max-width: 999px) {
-    div.wrapper {
+    div.wrapper{
         width: 100%;
         height: 100%;
-
     }
-
-    a {
-        text-decoration: underline;
-        color: rgb(21, 199, 140);
-    }
-
     form {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .regitration-form {
+      }
+    .Information-change-form{
         width: 25vw;
         width: 100%;
-        height: 650px;
-
-
+    
     }
-
-    h1 {
+    h1{
         text-align: center;
     }
-
-    p {}
-
+    
+    p{
+        
+    }
+      
     input {
         margin: 0.25em 0em 1em 0em;
         outline: none;
@@ -129,46 +122,47 @@ button:hover {
         background-color: rgb(225, 225, 225);
         border-radius: 0.25em;
         color: black;
-    }
-
+      }
+    
     button {
         padding: 0.75em;
         border: none;
         outline: none;
-        background-color: rgba(55, 145, 75, 0.9);
+        background-color: rgb(4, 164, 7);
         color: white;
         border-radius: 0.25em;
     }
-
+      
     button:hover {
         cursor: pointer;
-        background-color: rgba(56, 95, 65, 0.9);
-    }
-
-    .registration-h2 {
+        background-color: rgb(4, 164, 81);
+    } 
+    .Information-change-h2{
         width: 100%;
         height: 100px;
     }
-
-    .registration-h2 h2 {
+    .Information-change-h2 h2{
         text-align: center;
         padding: 40px;
         font-size: 25px;
     }
-
     .container {
         display: flex;
         flex-direction: column;
         width: 500px;
-        height: 400px;
+        height: 150px;
         margin: 0 auto 0 auto;
-
+    
     }
-
-    .regitration-button {
+    .container {
         display: flex;
-        justify-content: space-between;
-        gap: 50px 100px;
+        flex-direction: column;
+        width: 500px;
+        height: 150px;
+        margin: 0 auto 0 auto;
+    
     }
 
+
+        
 }

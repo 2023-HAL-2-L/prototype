@@ -1,16 +1,10 @@
 @charset "UTF-8";
 header {
   display: flex;
-  position: fixed;
   min-width: 100%;
   width: 100%;
   height: 50px;
   background-color: #37914b;
-  z-index: 100;
-}
-
-main {
-  min-height: 100vh;
 }
 
 #nav-logo {
@@ -39,7 +33,6 @@ main {
 
 #nav-button {
   margin: 0 10px 0 auto;
-  z-index: 105;
 }
 
 .open-btn {
@@ -133,8 +126,70 @@ nav {
   visibility: hidden;
   transition: all 1s ease;
   background-color: rgba(0, 0, 0, 0);
+}/*# sourceMappingURL=common.css.map */
+
+
+
+/* ----------ここからコラム投稿ページページ---------- */
+
+main{
+  text-align: center;
 }
 
-#header-space {
-  height: 50px;
-}/*# sourceMappingURL=common.css.map */
+/* タイトル部分 */
+main div.taitle{
+  width: 50%;
+  margin: 100px auto 30px auto;
+  text-align: left;
+}
+
+main div.taitle h3{
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+main div.taitle input.T-input{
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 3px;
+  background-color: #ddd;
+
+}
+
+/* コラム内容部分 */
+main div.korami-naiyou{
+  width: 50%;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+main div.korami-naiyou h3{
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+main div.korami-naiyou input.C-input{
+  
+  width: 100%;
+  height: 250px;
+  padding: 30px 0;
+  border-radius: 3px;
+  background-color: #ddd;
+}
+
+/* ボタン（戻る、投稿） */
+main div.botton{
+  width: 55%;
+  margin: 0 auto;
+}
+main div.botton ul{
+  display: flex;
+  justify-content: space-between;
+}
+main div.botton ul li{}
+main div.botton ul li a{
+  padding: 7px 60px;
+  background-color: #37914b;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}

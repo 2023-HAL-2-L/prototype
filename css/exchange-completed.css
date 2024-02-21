@@ -9,13 +9,15 @@ a {
     color: rgba(34, 100, 49, 0.9);;
 }
 
-form {
+.exchange-completed-button {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h1 {
+.exchange-completed-h2 {
+    padding-top: 100px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -37,6 +39,7 @@ button {
     background-color: rgba(55, 145, 75, 0.9);
     color: white;
     border-radius: 0.25em;
+    margin-top: 100px;
 }
 
 button:hover {
@@ -44,20 +47,14 @@ button:hover {
     background-color: rgba(56, 95, 65, 0.9);
 }
 
-.regitration-form {
-    width: 25vw;
-    width: 100%;
-    height: 650px;
-    
 
-}
 
-.registration-h2 {
+.exchange-completed-h2 {
     width: 100%;
     height: 100px;
 }
 
-.registration-h2 h2 {
+.exchange-completed-h2 h2 {
     text-align: center;
     padding: 40px;
     font-size: 25px;
@@ -72,13 +69,12 @@ button:hover {
 
 }
 
-.regitration-button {
+.exchange-completed-button {
     display: flex;
     justify-content: space-between;
     gap: 50px 150px;
-    margin: 15px;
 }
-.regitration-button a{
+.exchange-completed-button a{
     text-decoration: none;
     color: rgba(34, 100, 49, 0.9);
 }
@@ -93,7 +89,6 @@ button:hover {
     div.wrapper {
         width: 100%;
         height: 100%;
-
     }
 
     a {
@@ -101,17 +96,11 @@ button:hover {
         color: rgb(21, 199, 140);
     }
 
-    form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .regitration-form {
+
+    .exchange-completed-form {
         width: 25vw;
         width: 100%;
-        height: 650px;
-
 
     }
 
@@ -119,7 +108,7 @@ button:hover {
         text-align: center;
     }
 
-    p {}
+    /* p {} */
 
     input {
         margin: 0.25em 0em 1em 0em;
@@ -145,12 +134,12 @@ button:hover {
         background-color: rgba(56, 95, 65, 0.9);
     }
 
-    .registration-h2 {
+    .exchange-completed-h2 {
         width: 100%;
         height: 100px;
     }
 
-    .registration-h2 h2 {
+    .exchange-completed-h2 h2 {
         text-align: center;
         padding: 40px;
         font-size: 25px;
@@ -165,7 +154,7 @@ button:hover {
 
     }
 
-    .regitration-button {
+    .exchange-completed-button {
         display: flex;
         justify-content: space-between;
         gap: 50px 100px;
